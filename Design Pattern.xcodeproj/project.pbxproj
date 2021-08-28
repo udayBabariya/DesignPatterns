@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		780FEDF026D48BC000E75D4E /* FactoryMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780FEDEF26D48BC000E75D4E /* FactoryMethod.swift */; };
+		783B74C226D9E0210059AFDB /* Prototype.swift in Sources */ = {isa = PBXBuildFile; fileRef = 783B74C126D9E0210059AFDB /* Prototype.swift */; };
 		78CA460B26CDFB7500691767 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CA460A26CDFB7500691767 /* AppDelegate.swift */; };
 		78CA460D26CDFB7500691767 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CA460C26CDFB7500691767 /* SceneDelegate.swift */; };
 		78CA460F26CDFB7500691767 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CA460E26CDFB7500691767 /* ViewController.swift */; };
@@ -38,6 +39,7 @@
 
 /* Begin PBXFileReference section */
 		780FEDEF26D48BC000E75D4E /* FactoryMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryMethod.swift; sourceTree = "<group>"; };
+		783B74C126D9E0210059AFDB /* Prototype.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype.swift; sourceTree = "<group>"; };
 		78CA460726CDFB7500691767 /* Design Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CA460A26CDFB7500691767 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78CA460C26CDFB7500691767 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 			path = FactoryMethod;
 			sourceTree = "<group>";
 		};
+		783B74C026D9E0070059AFDB /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				783B74C126D9E0210059AFDB /* Prototype.swift */,
+			);
+			path = Prototype;
+			sourceTree = "<group>";
+		};
 		78CA45FE26CDFB7500691767 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +121,7 @@
 		78CA460926CDFB7500691767 /* Design Pattern */ = {
 			isa = PBXGroup;
 			children = (
+				783B74C026D9E0070059AFDB /* Prototype */,
 				780FEDEE26D48BAD00E75D4E /* FactoryMethod */,
 				78CA463A26CDFB8200691767 /* Singleton */,
 				78CA460A26CDFB7500691767 /* AppDelegate.swift */,
@@ -282,6 +293,7 @@
 			files = (
 				78CA460F26CDFB7500691767 /* ViewController.swift in Sources */,
 				78CA460B26CDFB7500691767 /* AppDelegate.swift in Sources */,
+				783B74C226D9E0210059AFDB /* Prototype.swift in Sources */,
 				78CA463C26CDFB9300691767 /* AppSetting.swift in Sources */,
 				780FEDF026D48BC000E75D4E /* FactoryMethod.swift in Sources */,
 				78CA460D26CDFB7500691767 /* SceneDelegate.swift in Sources */,
